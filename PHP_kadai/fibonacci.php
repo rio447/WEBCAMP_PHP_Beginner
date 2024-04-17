@@ -1,6 +1,7 @@
 <?php
 // 関数の作成
-
+function fizzBuzz(int $temp)
+{
     $n = 22;
     $a = 1;
     $b = 0;
@@ -11,3 +12,7 @@
         $b = $temp + $b;
         echo $a . "\n";
     }
+}
+
+//
+fizzBuzz(22); // 関数を呼び出す
